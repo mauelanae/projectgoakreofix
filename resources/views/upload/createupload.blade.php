@@ -82,8 +82,8 @@
         </div>
     </form>
 
-    <h1 class="mt-8 text-2xl font-bold text-center">Rekap Goakreo </h1>
-    <div class="flex overflow-auto p-4 pt-0"">
+    <h1 class="mt-8 text-2xl font-bold text-center">File Goakreo</h1>
+    <div class="flex overflow-auto p-4 pt-0">
         <table class="text-sm text-black w-full mt-6">
             <thead class="text-xs text-black bg-gray-300">
                 <th scope="col" class="px-2 py-4">Nama</th>
@@ -96,7 +96,7 @@
                         <th class="px-6 py-4">{{ $item['name'] }}</th>
                         <th class="px-6 py-4">{{ $item['filename'] }}</th>
                         <td class="px-6 py-4">
-                            <div class="flex gap-4">
+                            <div class="flex gap-4 justify-center">
                                 <a href="{{ route('download', ['id' => $item['id']]) }}"
                                     class="py-2 px-4 bg-utama text-white rounded-md">Download</a>
                                 <form action="{{ route('deletedata', ['id' => $item->id]) }}" method="POST">
@@ -109,7 +109,6 @@
                                 </form>
                             </div>
                         </td>
-                        </th>
                     </tr>
                 @endforeach
             </tbody>

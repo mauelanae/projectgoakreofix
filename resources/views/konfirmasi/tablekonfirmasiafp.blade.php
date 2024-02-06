@@ -41,7 +41,7 @@
                         </li>
                         <li>
                             <a href="{{route('joinracun')}}"
-                                class="block py-2 pl-3 pr-4 text-utama rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-utama md:p-0">Status</a>
+                                class="block py-2 pl-3 pr-4 text-utama rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-utama md:p-0">Dashboard</a>
                         </li>
                     </ul>
                 </div>
@@ -206,7 +206,7 @@
                         {{ $item->getSuspekafpdanKonfirmasiafp ? $item->getSuspekafpdanKonfirmasiafp->rtl : '' }}</td>
                     <td class="px-6 py-4">
                         <a href="{{route('advanceafp')}}"
-                            class="px-4 py-3 bg-utama rounded-xl font-bold text-white hover:bg-gray-300 hover:text-white">ADVANCED</a>
+                            class="px-4 py-3 bg-utama rounded-xl font-bold text-white hover:bg-gray-300 hover:text-white">KU60</a>
                     </td>
                 </tr>
             @endforeach
@@ -215,7 +215,7 @@
     <div class="p-4 -mt-2">
         {{ $join->links() }}
     </div>
-    <p class="p-4 text-sm"><span class="text-utama text-lg">*</span>Menu 'ADVANCED' dilakukan saat ada data Suspek AFP
+    <p class="p-4 text-sm"><span class="text-utama text-lg">*</span>Menu 'KU60' dilakukan saat ada data Suspek AFP
         spesimen tidak adikuat</p>
     <h1 class="p-4 text-black text-base font-bold">Data Lanjutan Suspek AFP</h1>
     <div class="p-4 flex overflow-auto">

@@ -40,7 +40,7 @@
                         </li>
                         <li>
                             <a href="{{ route('joindifteri') }}"
-                                class="block py-2 pl-3 pr-4 text-utama rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-utama md:p-0">Status</a>
+                                class="block py-2 pl-3 pr-4 text-utama rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-utama md:p-0">Dashboard</a>
                         </li>
                     </ul>
                 </div>
